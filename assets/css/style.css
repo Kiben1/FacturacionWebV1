@@ -1,0 +1,37 @@
+:root {
+  /* --- COLORES DE MARCA Y ACENTO --- */
+  /* El azul principal del logo y botones de login */
+  --color-brand-primary: #0D6EFD;
+  /* Una variante más oscura para estados 'hover' o degradados técnicos */
+  --color-brand-dark: #0030A1;
+  /* Negro para el texto principal del logo y títulos  */
+  --color-brand-text: #051937;
+
+  /* --- COLORES DE FONDO Y ESTRUCTURA (Neomorfismo) --- */
+  /* Fondo principal limpio */
+  --color-bg-main: #FFFFFF;
+  /* El fondo suave y grisáceo de las tarjetas de FactuSoft, ideal para neomorfismo */
+  --color-bg-card: #F8F9FB;
+  /* Gris claro para bordes sutiles o divisores */
+  --color-border-subtle: #E9ECEF;
+  /* Gris sutil para las sombras suaves que crean el efecto neomórfico */
+  --color-shadow-neomorphic: rgba(200, 209, 220, 0.4);
+
+  /* --- COLORES DE ESTADO Y DATOS  --- */
+  /* Verde para 'Facturas Pagadas' y tendencias positivas */
+  --color-status-success: #28C76F;
+  /* Rojo para 'Ingresos vs Gastos' o 'Stock Bajo' */
+  --color-status-danger: #EA5455;
+  /* Amarillo/Ocre para 'Facturas Pendientes' */
+  --color-status-warning: #FF9F43;
+  /* Morado para tendencias o KPI adicionales (como 'Clientes Totales') */
+  --color-status-info: #7367F0;
+
+  /* --- COLORES DE TEXTO --- */
+  /* Texto principal del dashboard y labels */
+  --color-text-body: #6E6B7B;
+  /* Texto secundario o placeholders */
+  --color-text-muted: #B9B9C3;
+  /* Texto blanco para botones principales sobre fondo azul */
+  --color-text-on-accent: #FFFFFF;
+}
